@@ -4,6 +4,6 @@ trigger:
   - master
 stages:
   - template: ./test.yml # Template reference
-parameters:
-  name: template.test.file
-  testFile: ref success of testFile
+    parameters:
+      name: template.test.file
+      testFile: ref success of testFile
