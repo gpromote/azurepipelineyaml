@@ -5,5 +5,5 @@ trigger:
 stages:
   - template: ./test.yml # Template reference
     parameters:
-      name: template.test.file
+      name: template_test_file
       testFile: ref success of testFile
